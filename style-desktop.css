@@ -1,0 +1,64 @@
+html{
+    scrollbar-width: auto;
+    overflow-x: hidden;
+}
+.hamburger-menu{
+    display: none;
+}
+.desktop-menu{
+    display: block;
+}
+
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    height: 30%; /*kanske ska vara 33% */
+    width: 80vw;
+    justify-content: space-between;
+    color: white;
+    align-items:center;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 1.5rem;
+}
+.hero-text p{
+    font-size: 1rem
+}
+
+.about{
+    display: grid;
+    grid-template-rows: 10vh 70vh 70vh;
+    grid-template-columns: 1fr 1fr;
+    
+
+ }
+.about h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.about>a{
+    transform: translateX(50%);
+}
+.profile{
+   grid-template-rows: 80% 20%; 
+   
+}
+.profile-text{
+    font-size: .75rem;
+    padding: 2em;
+}
+.footer{
+    height: fit-content;
+    padding: 2em 0;
+} 
+.footer-text{
+    grid-template-rows: 100%;
+    grid-template-columns:repeat(3, 1fr);
+    width: 80%;
+    font-size: 1rem;
+    line-height: 2rem;
+    align-items: start;
+    justify-items: center;
+}
