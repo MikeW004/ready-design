@@ -9,17 +9,6 @@ html{
     display: block;
 }
 
-
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    height: 30%; /*kanske ska vara 33% */
-    width: 80vw;
-    justify-content: space-between;
-    color: white;
-    align-items:center;
-    text-align: center;
-}
 .hero-text h1{
     font-size: 1.5rem;
 }
@@ -31,8 +20,6 @@ html{
     display: grid;
     grid-template-rows: 10vh 70vh 70vh;
     grid-template-columns: 1fr 1fr;
-    
-
  }
 .about h2{
     grid-column-start: 1;

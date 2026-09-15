@@ -24,14 +24,12 @@ nav{
     height: 100%;
     width: fit-content;
     align-items: center;
-    /* padding: 0 1rem; */
+
 
 }
 .desktop-menu{
     display: none;
-    /* border: 2px solid pink; */
     height: fit-content;
-    /* margin: 0 6rem; */
 }
 .desktop-menu a{
     text-decoration: none;
@@ -64,8 +62,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* overflow: hidden;
-    transform: scale(1.5); */
     
 }
 .hero-text{
@@ -80,7 +76,8 @@ main{
 }
 .hero-text *{
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .about{
